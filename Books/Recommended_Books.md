@@ -55,6 +55,11 @@
 * [JVM and Java Language Specification, Oracle](https://docs.oracle.com/javase/specs/)
 * JavaFX, Carl De, Apress
 
+## Database Design and (no)SQL :
+
+* Database Systems, Carolyn Begg and Thomas Connolly
+* [Database Systems: The Complete Book](http://infolab.stanford.edu/~ullman/dscb.html)
+
 ## Some Miscellanous Books: 
 
 * Wicked Cool Java No Starch Publications
