@@ -31,3 +31,4 @@ These are the official rules.
 28. Do not send members private messages (without their consent) about your questions. Post your questions in the group, and don't clutter their messageboxes.
 29. If you want Books or Materials or Java Tutorials, visit _[Recommended Books](../Books/Recommended_Books.md)_ instead of opening a new thread
 
+There is also an article "[How To Post Questions](How_To_Post.md)", which explains how to post questions and avoid getting banned.
