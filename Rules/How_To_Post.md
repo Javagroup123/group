@@ -1,7 +1,7 @@
 ﻿# How To Post Questions
 
 This is the text version of the rules. The official rules are in list form:  
-[./Rules.md](./Rules.md "Official Rules")
+[Official Rules](./Rules.md)
 
 The idea of this text is that you do not have to read a list and also get some more advice on how to write good questions and answers. The list has two other advantages: It is directly on facebook (in our group) and it is a list so we can reference the number of a rule.
 
@@ -23,12 +23,12 @@ It doesn’t have to be perfect English, but at least use complete words and sen
 
 Source code should not be directly in the text (unless it’s just two or three lines). Use any of the following sites to paste your code and post a link to it.
 
-*   [https://pastebin.com/](https://pastebin.com/ "pastebin")
-*   [https://gist.github.com/](https://gist.github.com/ "gist")
-*   [https://www.codepad.org/](https://www.codepad.org/%20  "codepad")
-*   [http://pastie.org/](http://pastie.org/ "pastie")
+*   [pastebin](https://pastebin.com/)
+*   [gist/github](https://gist.github.com/)
+*   [codepad](https://www.codepad.org/)
+*   [pastie](http://pastie.org/)
 
-Full Tutorial: [How to paste Source Code](http://java-queries.rhcloud.com/how-to-paste-source-code/ "How to paste Source Code")
+Full Tutorial: [How to paste Source Code](http://java-queries.rhcloud.com/how-to-paste-source-code/)
 
 # Example
 
@@ -60,15 +60,15 @@ It is good because:
 If you are a raw novice, don’t be afraid to ask – there are no stupid questions.
 
 **State your goal!** That is the most important information to answer your question. This text explains how to ask questions the smart way:  
-[http://www.catb.org/esr/faqs/smart-questions.html](http://www.catb.org/esr/faqs/smart-questions.html "How To Ask Questions The Smart Way")
+["How To Ask Questions The Smart Way"](http://www.catb.org/esr/faqs/smart-questions.html)
 
-Try to provide a _short, self contained, correct example_: [http://sscce.org/](http://sscce.org/ "The SSCCE")
+Try to provide a _short, self contained, correct example_: ["The SSCCE"](http://sscce.org/)
 
 Tell us what result/output you expect. The compiler and the runtime rarely do anything wrong, so don’t claim the output is _wrong_. It isn’t – your code is.
 
 Before you ask, **use Google** and read your Java **textbook**, and the [Java API specs](http://docs.oracle.com/javase/8/docs/api/ "Java™ Platform, Standard Edition 8 API Specification"). There’s no point in asking something that can be answered by a quick google search.
 
-If you are looking for a book or software then check our [top recommended java books](http://java-queries.rhcloud.com/top-recommended-java-books/ "Top Recommended Java Books") instead of opening a new thread.
+If you are looking for a book or software then check our [top recommended java books](../Books/Recommended_Books.md "Top Recommended Java Books") instead of opening a new thread.
 
 Start your post with the topic (e.g. OOP, Android, Networking).  
 [Don’t start with “Can I …”. If you could, you wouldn’t have to ask.](http://java-queries.rhcloud.com/can-i/ "Can I …?")  
