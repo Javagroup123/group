@@ -29,5 +29,5 @@ These are the official rules.
 26. Links to bad blogs are deleted
 27. Membership requests will be linked to the number of groups you are a member of. 50 max will be allowed.
 28. Do not send members private messages (without their consent) about your questions. Post your questions in the group, and don't clutter their messageboxes.
-29. If you want Books or Materials or Java Tutorials, visit _[Recommended Books](../Recommended_Books.md)_ instead of opening a new thread
+29. If you want Books or Materials or Java Tutorials, visit _[Recommended Books](../Books/Recommended_Books.md)_ instead of opening a new thread
 
