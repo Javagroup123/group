@@ -32,7 +32,6 @@ public class NameOfType {
    *
    * Note that the Java language doesn't know about constants. The value could
    * be different for each invocation or version of your software.
-   *
    * Often an Enumeration (enum) should be used instead.
    */
   public static int          NAME_OF_CONSTANT = 123;
@@ -44,14 +43,15 @@ public class NameOfType {
   private final List<String> nameOfMember     = new ArrayList<String>();
 
   /**
-   * This one isn't final so there is a setter. Note that this will be
-   * initialized as null, wich is risky. But in this case the constructor will
+   * This one isn't final so there is a setter. Note that this would be
+   * initialized as null, which is risky. But in this case the constructor will
    * initialize it.
    */
   private LocalTime          anotherMember;
 
   /** This is a constructor. It has the same name as the class. */
   public NameOfType() {
+    // This makes sure there is a valid value and not null:
     this.setAnotherMember(LocalTime.now());
   }
 
