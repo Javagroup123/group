@@ -1,14 +1,11 @@
 // Each file starts with a package declaration.
-// It defines the namespace and must correspond to the folter structure.
+// It defines the namespace and must correspond to the folder structure.
 // For very simple projects you can use no subfolders and leave out the package declaration.
 package com.github.claudemartin.javagroup123;
 
-// After that you have the list imports:
+// After that you have the list of imports:
 import java.time.LocalTime;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 /**
  * Javadoc is used to describe all elements of the source code. Just start a
