@@ -8,7 +8,7 @@ import java.util.stream.Stream;;
  * Interfaces are here to describe abstract ideas. This is something that can be
  * iterated and closed.
  */
-interface SomeInterface<E> extends Iterable<E>, AutoCloseable {
+public interface SomeInterface<E> extends Iterable<E>, AutoCloseable {
   /**
    * This is a default method in an interface. It's trivial and you will often see
    * forEach() implemented as a default method. Documentation describes this
