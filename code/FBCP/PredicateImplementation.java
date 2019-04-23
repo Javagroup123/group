@@ -16,7 +16,7 @@ public class PredicateImplementation<E> extends AbstractClass<E, Predicate<E>> {
 
   @Override
   public boolean contains(Object o) {
-    // Oh, boy. Some one tried to optimise this code.
+    // Oh, boy. Someone tried to optimise this code.
     if (o == getThingy())
       return super.containsThingy();
     else
