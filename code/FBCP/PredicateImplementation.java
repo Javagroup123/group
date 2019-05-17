@@ -2,8 +2,9 @@
 
 import java.util.function.Predicate;
 
-/** Special implementation for when the thingy is a Predicate. */
-public class PredicateImplementation<E> extends AbstractClass<E, Predicate<E>> {
+/** Special implementation for when the thingy is a Predicate. This is final because other 
+  * implementations should just extend AbstractClass. */
+public final class PredicateImplementation<E> extends AbstractClass<E, Predicate<E>> {
   /** We just use the same constructor from the base class. */
   public PredicateImplementation(E[] data, Predicate<E> thingy) {
     super(data, thingy);
@@ -29,11 +30,10 @@ public class PredicateImplementation<E> extends AbstractClass<E, Predicate<E>> {
   }
 
   public static void main(String[] args) {
-    String[] strings = { "foo", "bar", "baz" };
+    final String[] strings = { "foo", "bar", "baz" };
 
     try (PredicateImplementation<String> instance = new PredicateImplementation<>(strings, s -> s.length() == 3)) {
-      // This works because the abstract class correctly overrides both stream() and
-      // forEach()
+      // This works because the abstract class correctly overrides both stream() and forEach():
       instance.forEach(System.out::println);
       // All words are 3 letters long, so this will print 3:
       System.out.println(instance.doSomething());
